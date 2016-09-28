@@ -277,6 +277,9 @@ body{
 	}
 	.hotCon .thumbnail img{
 		border-radius:12px;
+		-position:absolute;
+		-left:0;
+		-top:0;
 	}
 	.hotCon .firHot{
 		background-color:#e34052;	
