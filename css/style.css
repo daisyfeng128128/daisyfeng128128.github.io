@@ -135,9 +135,7 @@ body{
 	margin-top:4px;
 	margin-bottom:4px; 
 }
-.hdNavL>li>a{
-	padding:17px 15px; 
-}
+
 @media(min-width:1450px){
 	.container{
 		width:1440px;
@@ -159,13 +157,26 @@ body{
 	}
 }
 /*导航*/
-.navbar-default .navbar-nav>.active>a{
-	background-color:#3E63D8
-;
-	color:#fff;
+.hdNavL>li>a{
+	padding:17px 15px; 
 }
+.navbar-default .hdNavL{
+	position:relative;
+}
+.navbar-default .hdNavL li{ position:relative; z-index:2; }
+.navbar-default .hdNavL li a:hover{
+	color:#fff; 
+}
+.navbar-default .hdNavL li.active{ 
+	position:absolute;left:0;top:0; background:#3E63D8; z-index:1;
+	width:19%;
+	height:100%;
+
+}
+
 .hdNavR>li>a{
 	padding: 15px 6px;
+	font-size:16px;
 }
 
 /*轮播图*/
@@ -199,13 +210,10 @@ body{
 	background-color:#e34052;
 	border:1px solid #f40923;
 }
-.pasTip{
-	color:#999;
-	margin-left:20px;
+.pasTip,.quickLog{
+	margin-left:9%;
 }	
-.quickLog{
-	margin-left:20px;
-}
+
 @media (min-width: 1200px){
 	.loginBtn,.regBtn{
 		padding:10px 80px; 
@@ -235,6 +243,7 @@ body{
 	}
 	.follow .titD,.rank .titD,.rich .titD,.fans .titD{
 		margin-right:16px;
+		padding-top:3%;
 	}
 	.follow .foLi .spriteLev,.rank .foLi .spriteLev,.rich .foLi .spriteLev,.fans .foLi .spriteLev{
 		margin-top:18px;
