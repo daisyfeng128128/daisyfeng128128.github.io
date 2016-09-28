@@ -97,6 +97,11 @@ body{
 	width: 99%;
 	overflow:hidden;white-space:nowrap;text-overflow:ellipsis;
 }
+.line{
+	width:100%;
+	height:1px;
+	background-color:#ddd;
+}
 /*搜索按钮*/
 .searchBtn{
 	color:#e34052;
