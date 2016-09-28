@@ -106,8 +106,6 @@ body{
 	border-left:none;
 }
 
-
-/*img{border-radius:20px; -webkit-border-radius:20px; -o-border-radius:20px; }*/
 .thumbnail{
 	padding:0; 
 	border-radius: 12px;
@@ -284,11 +282,13 @@ body{
 		padding:2px; 
 		box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 	}
+	
 	.hotCon .thumbnail img{
 		border-radius:12px;
 		-position:absolute;
 		-left:0;
 		-top:0;
+		width:100%;
 	}
 	.hotCon .firHot{
 		background-color:#e34052;	
