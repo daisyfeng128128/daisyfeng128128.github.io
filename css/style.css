@@ -402,7 +402,7 @@ body{
 	
 	
 	/* 精彩推荐 */
-	.glyphicon-fire{
+	.recomm .glyphicon-fire{
 		color: #fff;
 		background-color:#e34052;;
 		padding-left: 8px;
