@@ -2,17 +2,20 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>蝌蚪直播-最好玩的直播平台</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 	 <link href="css/homeBg.css" rel="stylesheet">
+  <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+  <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
   </head>
   <body style="padding-top:60px;">  
 	<!--导航-->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -59,13 +62,13 @@
           
         </div><!--/.nav-collapse -->
       </div>
-    </nav>
+    </div>
     
     
     <!--主体-->
     <div class="container main">
-    	<div class="row">
-        	<div class="col-lg-9 col-sm-9 col-xs-12 mainLeft" role="main">
+    	<div class="row clearFix outer">
+        	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 mainLeft fl" role="main">
             	<div id="carousel-example-captions" class="carousel slide" data-ride="carousel" style="margin-bottom:30px;">
 					<ol class="carousel-indicators">
                         <li data-target="#carousel-example-captions" data-slide-to="0" class=""></li>
@@ -96,18 +99,18 @@
     			
                 <!--热门主播-->
                 <div class="hotCon">
-                	<div class="page-header clearfix">
-                        <h4 class="pull-left">
+                	<div class="page-header clearfix clearFix outer">
+                        <h4 class="pull-left fl">
                         	<span class="glyphicon glyphicon-hot">HOT</span>
                         	<span>热门主播</span>
                             
                         </h4>
-                        <h4 class="pull-right hotR">
+                        <h4 class="pull-right fr hotR">
                           <a href="javascript:;"><small>更多</small></a>
                         </h4>
                     </div>
-                    <div class="row">
-                      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+                    <div class="row clearFix outer">
+                      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 fl fir">
                         <a href="#" class="thumbnail firHot">
                           <img src="images/girl01.png" alt=""/>
                           <span class="glyphicon glyphicon-stats"></span>
@@ -117,7 +120,7 @@
                           </div>
                           <div class="firB ellipsis">
                               <p class="colorPin f16">小蜜桃sasa</p>	
-                              <p class="clearfix f12">
+                              <p class="clearfix f12 outer">
                                   <span class="glyphicon glyphicon-user"></span>
                                   <span>30</span>
                                   <span>分钟之前开播</span>
@@ -129,10 +132,10 @@
                           <div class="playBtn"></div>
                         </a>
                       </div>
-                      <div class="col-lg-9 col-md-8 col-sm-8 col-xs-6">
-                            <div class="row">
-                            	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-                                <a href="https://www.baidu.com" class="hotItem thumbnail">
+                      <div class="col-lg-9 col-md-8 col-sm-8 col-xs-6 fr itemList">
+                            <div class="row clearFix outer">
+                            	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 fl items">
+                                <a href="https://www.baidu.com" class="hotItem thumbnail" id="a">
                                   <img src="http://images.181show.com/2e0e0e233f340d0408c48bd3364c54a9?w=269&h=409" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
                                   <div class="hotT thumbnail">
@@ -151,7 +154,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -171,7 +174,7 @@
                                     <div class="playBtn"></div>
                                   </a>
                                 </div>
-                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -191,48 +194,7 @@
                                     <div class="playBtn"></div>
                                   </a>
                                 </div>
-                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-                                    <a href="#" class="hotItem thumbnail">
-                                      <img src="images/girl02.png" alt=""/>
-                                      <span class="glyphicon glyphicon-stats"></span>
-                                      <div class="hotT thumbnail">
-                                        <div class=""></div>
-                                        <p class="text-center">人数：<span>268</span></p>
-                                        
-                                      </div>
-                                    <div class="hotB">
-                                        <span class="colorPin f14">小蜜桃sasa</span>  
-                                        <p class="f12">
-                                            <!-- <span class="glyphicon glyphicon-user"></span> -->
-                                            <span>30</span>
-                                            <span>分钟之前</span>
-                                        </p>
-                                    </div>
-                                    <div class="playBtn"></div>
-                                  </a>
-                                </div>
-                                
-                                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs">
-                                    <a href="#" class="hotItem thumbnail">
-                                      <img src="images/girl02.png" alt=""/>
-                                      <span class="glyphicon glyphicon-stats"></span>
-                                      <div class="hotT thumbnail">
-                                        <div class=""></div>
-                                        <p class="text-center">人数：<span>268</span></p>
-                                        
-                                      </div>
-                                    <div class="hotB">
-                                        <span class="colorPin f14">小蜜桃sasa</span>  
-                                        <p class="f12">
-                                            <!-- <span class="glyphicon glyphicon-user"></span> -->
-                                            <span>30</span>
-                                            <span>分钟之前</span>
-                                        </p>
-                                    </div>
-                                    <div class="playBtn"></div>
-                                  </a>
-                                </div>
-                                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -253,7 +215,7 @@
                                   </a>
                                 </div>
                                 
-                                <div class="col-lg-2 col-md-3 hidden-sm hidden-xs">
+                                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -273,48 +235,7 @@
                                     <div class="playBtn"></div>
                                   </a>
                                 </div>
-                                <div class="col-lg-2 col-md-3 hidden-sm hidden-xs">
-                                    <a href="#" class="hotItem thumbnail">
-                                      <img src="images/girl02.png" alt=""/>
-                                      <span class="glyphicon glyphicon-stats"></span>
-                                      <div class="hotT thumbnail">
-                                        <div class=""></div>
-                                        <p class="text-center">人数：<span>268</span></p>
-                                        
-                                      </div>
-                                    <div class="hotB">
-                                        <span class="colorPin f14">小蜜桃sasa</span>  
-                                        <p class="f12">
-                                            <!-- <span class="glyphicon glyphicon-user"></span> -->
-                                            <span>30</span>
-                                            <span>分钟之前</span>
-                                        </p>
-                                    </div>
-                                    <div class="playBtn"></div>
-                                  </a>
-                                </div>
-                                
-                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs">
-                                    <a href="#" class="hotItem thumbnail">
-                                      <img src="images/girl02.png" alt=""/>
-                                      <span class="glyphicon glyphicon-stats"></span>
-                                      <div class="hotT thumbnail">
-                                        <div class=""></div>
-                                        <p class="text-center">人数：<span>268</span></p>
-                                        
-                                      </div>
-                                    <div class="hotB">
-                                        <span class="colorPin f14">小蜜桃sasa</span>  
-                                        <p class="f12">
-                                            <!-- <span class="glyphicon glyphicon-user"></span> -->
-                                            <span>30</span>
-                                            <span>分钟之前</span>
-                                        </p>
-                                    </div>
-                                    <div class="playBtn"></div>
-                                  </a>
-                                </div>
-                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -335,7 +256,7 @@
                                   </a>
                                 </div>
                                 
-                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                                <div class="col-lg-2 col-md-3 hidden-sm hidden-xs fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -355,7 +276,89 @@
                                     <div class="playBtn"></div>
                                   </a>
                                 </div>
-                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                                <div class="col-lg-2 col-md-3 hidden-sm hidden-xs fl items">
+                                    <a href="#" class="hotItem thumbnail">
+                                      <img src="images/girl02.png" alt=""/>
+                                      <span class="glyphicon glyphicon-stats"></span>
+                                      <div class="hotT thumbnail">
+                                        <div class=""></div>
+                                        <p class="text-center">人数：<span>268</span></p>
+                                        
+                                      </div>
+                                    <div class="hotB">
+                                        <span class="colorPin f14">小蜜桃sasa</span>  
+                                        <p class="f12">
+                                            <!-- <span class="glyphicon glyphicon-user"></span> -->
+                                            <span>30</span>
+                                            <span>分钟之前</span>
+                                        </p>
+                                    </div>
+                                    <div class="playBtn"></div>
+                                  </a>
+                                </div>
+                                
+                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs fl items">
+                                    <a href="#" class="hotItem thumbnail">
+                                      <img src="images/girl02.png" alt=""/>
+                                      <span class="glyphicon glyphicon-stats"></span>
+                                      <div class="hotT thumbnail">
+                                        <div class=""></div>
+                                        <p class="text-center">人数：<span>268</span></p>
+                                        
+                                      </div>
+                                    <div class="hotB">
+                                        <span class="colorPin f14">小蜜桃sasa</span>  
+                                        <p class="f12">
+                                            <!-- <span class="glyphicon glyphicon-user"></span> -->
+                                            <span>30</span>
+                                            <span>分钟之前</span>
+                                        </p>
+                                    </div>
+                                    <div class="playBtn"></div>
+                                  </a>
+                                </div>
+                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs fl items">
+                                    <a href="#" class="hotItem thumbnail">
+                                      <img src="images/girl02.png" alt=""/>
+                                      <span class="glyphicon glyphicon-stats"></span>
+                                      <div class="hotT thumbnail">
+                                        <div class=""></div>
+                                        <p class="text-center">人数：<span>268</span></p>
+                                        
+                                      </div>
+                                    <div class="hotB">
+                                        <span class="colorPin f14">小蜜桃sasa</span>  
+                                        <p class="f12">
+                                            <!-- <span class="glyphicon glyphicon-user"></span> -->
+                                            <span>30</span>
+                                            <span>分钟之前</span>
+                                        </p>
+                                    </div>
+                                    <div class="playBtn"></div>
+                                  </a>
+                                </div>
+                                
+                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs fl items">
+                                    <a href="#" class="hotItem thumbnail">
+                                      <img src="images/girl02.png" alt=""/>
+                                      <span class="glyphicon glyphicon-stats"></span>
+                                      <div class="hotT thumbnail">
+                                        <div class=""></div>
+                                        <p class="text-center">人数：<span>268</span></p>
+                                        
+                                      </div>
+                                    <div class="hotB">
+                                        <span class="colorPin f14">小蜜桃sasa</span>  
+                                        <p class="f12">
+                                            <!-- <span class="glyphicon glyphicon-user"></span> -->
+                                            <span>30</span>
+                                            <span>分钟之前</span>
+                                        </p>
+                                    </div>
+                                    <div class="playBtn"></div>
+                                  </a>
+                                </div>
+                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -381,8 +384,8 @@
                       
                     </div>
                     
-                    <div class="row">
-                            <div class="hidden-lg hidden-md hidden-sm col-xs-3">
+                    <div class="row clearFix outer">
+                            <div class="hidden-lg hidden-md hidden-sm col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -402,48 +405,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg hidden-md hidden-sm col-xs-3">
-                                <a href="#" class="hotItem thumbnail">
-                                  <img src="images/girl02.png" alt=""/>
-                                  <span class="glyphicon glyphicon-stats"></span>
-                                  <div class="hotT thumbnail">
-                                    <div class=""></div>
-                                    <p class="text-center">人数：<span>268</span></p>
-                                    
-                                  </div>
-                                <div class="hotB">
-                                    <span class="colorPin f14">小蜜桃sasa</span>  
-                                    <p class="f12">
-                                        <!-- <span class="glyphicon glyphicon-user"></span> -->
-                                        <span>30</span>
-                                        <span>分钟之前</span>
-                                    </p>
-                                </div>
-                                <div class="playBtn"></div>
-                              </a>
-                            </div>
-                            
-                            <div class="hidden-lg hidden-md col-sm-3 col-xs-3">
-                                <a href="#" class="hotItem thumbnail">
-                                  <img src="images/girl02.png" alt=""/>
-                                  <span class="glyphicon glyphicon-stats"></span>
-                                  <div class="hotT thumbnail">
-                                    <div class=""></div>
-                                    <p class="text-center">人数：<span>268</span></p>
-                                    
-                                  </div>
-                                <div class="hotB">
-                                    <span class="colorPin f14">小蜜桃sasa</span>  
-                                    <p class="f12">
-                                        <!-- <span class="glyphicon glyphicon-user"></span> -->
-                                        <span>30</span>
-                                        <span>分钟之前</span>
-                                    </p>
-                                </div>
-                                <div class="playBtn"></div>
-                              </a>
-                            </div>
-                            <div class="hidden-lg hidden-md col-sm-3 col-xs-3">
+                            <div class="hidden-lg hidden-md hidden-sm col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -464,7 +426,7 @@
                               </a>
                             </div>
                             
-                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3">
+                            <div class="hidden-lg hidden-md col-sm-3 col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -484,7 +446,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3">
+                            <div class="hidden-lg hidden-md col-sm-3 col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -504,7 +466,8 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3">
+                            
+                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -524,7 +487,47 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3">
+                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3 fl items">
+                                <a href="#" class="hotItem thumbnail">
+                                  <img src="images/girl02.png" alt=""/>
+                                  <span class="glyphicon glyphicon-stats"></span>
+                                  <div class="hotT thumbnail">
+                                    <div class=""></div>
+                                    <p class="text-center">人数：<span>268</span></p>
+                                    
+                                  </div>
+                                <div class="hotB">
+                                    <span class="colorPin f14">小蜜桃sasa</span>  
+                                    <p class="f12">
+                                        <!-- <span class="glyphicon glyphicon-user"></span> -->
+                                        <span>30</span>
+                                        <span>分钟之前</span>
+                                    </p>
+                                </div>
+                                <div class="playBtn"></div>
+                              </a>
+                            </div>
+                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3 fl items">
+                                <a href="#" class="hotItem thumbnail">
+                                  <img src="images/girl02.png" alt=""/>
+                                  <span class="glyphicon glyphicon-stats"></span>
+                                  <div class="hotT thumbnail">
+                                    <div class=""></div>
+                                    <p class="text-center">人数：<span>268</span></p>
+                                    
+                                  </div>
+                                <div class="hotB">
+                                    <span class="colorPin f14">小蜜桃sasa</span>  
+                                    <p class="f12">
+                                        <!-- <span class="glyphicon glyphicon-user"></span> -->
+                                        <span>30</span>
+                                        <span>分钟之前</span>
+                                    </p>
+                                </div>
+                                <div class="playBtn"></div>
+                              </a>
+                            </div>
+                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -546,7 +549,7 @@
                             </div>
                             
                             <!--md档13,14另加的两个-->
-                            <div class="hidden-lg col-md-2 col-sm-3 hidden-xs">
+                            <div class="hidden-lg col-md-2 col-sm-3 hidden-xs fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -566,7 +569,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg col-md-2 col-sm-3 hidden-xs">
+                            <div class="hidden-lg col-md-2 col-sm-3 hidden-xs fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -589,15 +592,15 @@
                         
                     </div>
                     
-                    <div class="row">
-                      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6">
+                    <div class="row clearFix outer">
+                      <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 fl items">
                         <a href="#" class="thumbnail">
                           <img src="images/hotImg.png" alt=""/>
                         </a>
                       </div>
-                      <div class="col-lg-9 col-md-8 col-sm-8 col-xs-6">
-                            <div class="row">
-                            	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                      <div class="col-lg-9 col-md-8 col-sm-8 col-xs-6 fl">
+                            <div class="row clearFix outer">
+                            	<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -617,7 +620,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -638,7 +641,7 @@
                                   </a>
                                 </div>
                                 
-                                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs">
+                                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -659,7 +662,7 @@
                                   </a>
                                 </div>
                                 
-                                <div class="col-lg-2 col-md-3 hidden-sm hidden-xs">
+                                <div class="col-lg-2 col-md-3 hidden-sm hidden-xs fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -680,7 +683,7 @@
                                   </a>
                                 </div>
                                 
-                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -700,7 +703,7 @@
                                     <div class="playBtn"></div>
                                   </a>
                                 </div>
-                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs">
+                                <div class="col-lg-2 hidden-md hidden-sm hidden-xs fl items">
                                     <a href="#" class="hotItem thumbnail">
                                       <img src="images/girl02.png" alt=""/>
                                       <span class="glyphicon glyphicon-stats"></span>
@@ -723,8 +726,8 @@
                             </div>
                       </div>
                     </div>
-                    <div class="row">
-                            <div class="hidden-lg hidden-md hidden-sm col-xs-3">
+                    <div class="row clearFix outer">
+                            <div class="hidden-lg hidden-md hidden-sm col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -745,7 +748,7 @@
                               </a>
                             </div>
                             
-                            <div class="hidden-lg hidden-md col-sm-3 col-xs-3">
+                            <div class="hidden-lg hidden-md col-sm-3 col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -765,7 +768,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3">
+                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -785,7 +788,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3">
+                            <div class="hidden-lg col-md-2 col-sm-3 col-xs-3 fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -807,7 +810,7 @@
                             </div>
                             
                             <!--md档另加的7,8,9,10档-->
-                            <div class="hidden-lg col-md-2 col-sm-3 hidden-xs">
+                            <div class="hidden-lg col-md-2 col-sm-3 hidden-xs fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -827,7 +830,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg col-md-2 hidden-sm hidden-xs">
+                            <div class="hidden-lg col-md-2 hidden-sm hidden-xs fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -847,7 +850,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg col-md-2 hidden-sm hidden-xs">
+                            <div class="hidden-lg col-md-2 hidden-sm hidden-xs fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -867,7 +870,7 @@
                                 <div class="playBtn"></div>
                               </a>
                             </div>
-                            <div class="hidden-lg col-md-2 hidden-sm hidden-xs">
+                            <div class="hidden-lg col-md-2 hidden-sm hidden-xs fl items">
                                 <a href="#" class="hotItem thumbnail">
                                   <img src="images/girl02.png" alt=""/>
                                   <span class="glyphicon glyphicon-stats"></span>
@@ -908,8 +911,8 @@
                         </h4>
                         
                     </div>
-                    <div class="row">
-                      <div class="col-lg-3 col-sm-3 col-xs-4">
+                    <div class="row outer">
+                      <div class="col-lg-3 col-sm-3 col-xs-4 fl">
                         <a href="#" class="thumbnail">
                           <div class="recommImg thumbnail">
                             <img src="images/recom.png" alt=""/>
@@ -918,9 +921,9 @@
                             <div class="playBtn"></div>
                           </div>
                           <div class="recommB">
-                            <div class="clearfix">
-                              <span class="color33 pull-left">女人如歌节目</span>
-                              <div class="color99 pull-right">
+                            <div class="clearfix outer">
+                              <span class="color33 pull-left fl">女人如歌节目</span>
+                              <div class="color99 pull-right fr">
                                 <span class="glyphicon glyphicon-eye-open"></span>
                                 <span>2143324</span>
                               </div>
@@ -1187,7 +1190,7 @@
                           <img src="images/girl01.png" alt=""/>
                           <div class="firB ellipsis">
                               <p class="colorPin f16">小蜜桃sasa</p>	
-                              <p class="clearfix f12">
+                              <p class="clearfix f12 outer">
                                   <span class="glyphicon glyphicon-eye-open"></span>
                                   <span>123330</span>
                                   <span class="glyphicon glyphicon-fire"></span>
@@ -1751,7 +1754,7 @@
                 
 
             </div>
-            <div class="col-lg-3 col-sm-3 hidden-xs pull-right mainRight" role="complementary">
+            <div class="col-lg-3 col-md-3 col-sm-3 hidden-xs pull-right fr mainRight" role="complementary">
 				<!--登录注册-->
                 <div class="thumbnail regLog text-center">
                 	<!--登录前-->
@@ -1805,17 +1808,17 @@
                         <div>还差1234567经验值升级到下一级</div>
                         
                   
-                        <p class="row showOw clearfix">
-                            <input class="btn btn-md btn-default colorBlue pull-left show" type="submit" value="开播">
-                            <input class="btn btn-md btn-default colorBlue pull-right" type="submit" value="OW">
+                        <p class="row showOw clearfix outer">
+                            <input class="btn btn-md btn-default colorBlue pull-left fl show" type="submit" value="开播">
+                            <input class="btn btn-md btn-default colorBlue pull-right fr" type="submit" value="OW">
                         </p>
                         
                             
-                   		<div class="clearfix">
-                        	<span class="pull-left">获得成就</span>
+                   		<div class="clearfix outer">
+                        	<span class="pull-left fl">获得成就</span>
                         </div>
                         <hr/>
-                        <div class="clearfix achieve">
+                        <div class="clearfix achieve outer">
                         	<span class="achieve1 pull-left"></span>
                             <span class="achieve2 pull-left"></span>
                             <span class="achieve3 pull-left"></span>
@@ -1830,22 +1833,22 @@
                 <!--我的关注-->
                <div class="thumbnail follow text-left">
                	<div class="caption">
-                        <div class="row foTit">
-                        	<h4 class="pull-left titH">我的关注</h4>
-                            <div class="pull-right titD">
+                        <div class="row foTit outer">
+                        	<h4 class="pull-left titH fl">我的关注</h4>
+                            <div class="pull-right titD fl">
                             	<a href="#" class="glyphicon glyphicon-menu-up"></a>
                             	<a href="#" class="glyphicon glyphicon-menu-down"></a>
                             </div>
                         </div>
                         
-                        <div class="row foLi">
+                        <div class="row foLi outer">
                         	<a href="javascript:;">
-                                <img class="pull-left" src="images/photo_title.jpg" alt=""/>
-                                <div class="pull-left">
+                                <img class="pull-left fl" src="images/photo_title.jpg" alt=""/>
+                                <div class="pull-left fl">
                                     <p class="name">小蜜桃sasa</p>
                                     <p class="ynLiv">未开播</p>
                                 </div>
-                                <div class="pull-left spriteLev liverlevel-pic_liverlevel_30 "></div>
+                                <div class="pull-left spriteLev liverlevel-pic_liverlevel_30 fl"></div>
                             </a>
                         </div>
                   
@@ -1860,23 +1863,23 @@
                 <!--主播排行榜-->
                <div class="thumbnail text-left rank">
                	<div class="caption">
-                        <div class="row foTit">
-                        	<h4 class="pull-left titH hidden-sm">主播排行榜</h4>
-                            <h4 class="pull-left titH visible-sm-block">主播榜</h4>
+                        <div class="row foTit outer">
+                        	<h4 class="pull-left titH hidden-sm fl">主播排行榜</h4>
+                            <h4 class="pull-left titH visible-sm-block fl">主播榜</h4>
                             <div class="pull-right titD">
                             	<a href="#" class="colorPin">周</a>
                             	<a href="#" class="colorPin">月</a>
                                 <a href="#" class="colorPin">年</a>
                             </div>
                         </div>
-                        <div class="row foLi">
+                        <div class="row foLi outer">
                         	<a href="javascript:;">
-                                <img class="pull-left" src="images/photo_title.jpg" alt=""/>
-                                <div class="pull-left">
+                                <img class="pull-left fl" src="images/photo_title.jpg" alt=""/>
+                                <div class="pull-left fl">
                                     <p class="name">小蜜桃sasa</p>
                                     <p class="ynLiv">未开播</p>
                                 </div>
-                                <div class="pull-left spriteLev liverlevel-pic_liverlevel_30 "></div>
+                                <div class="pull-left spriteLev liverlevel-pic_liverlevel_30 fl"></div>
                             </a>
                         </div>
                 </div>
@@ -1886,22 +1889,22 @@
                 <!--土豪榜-->
                 <div class="thumbnail rich text-left">
                          <div class="caption">
-                         	<div class="row foTit">
+                         	<div class="row foTit outer">
                         		<h4 class="pull-left titH">土豪榜</h4>
-                                <div class="pull-right titD">
+                                <div class="pull-right fl titD">
                                     <a href="#" class="colorPin">周</a>
                                     <a href="#" class="colorPin">月</a>
                                     <a href="#" class="colorPin">年</a>
                                 </div>
                         	</div>
-                            <div class="row foLi">
+                            <div class="row foLi outer">
                                 <a href="javascript:;">
-                                    <img class="pull-left" src="images/photo_title.jpg" alt=""/>
-                                    <div class="pull-left">
+                                    <img class="pull-left fl" src="images/photo_title.jpg" alt=""/>
+                                    <div class="pull-left fl">
                                         <p class="name">小蜜桃sasa</p>
                                         <p class="ynLiv">未开播</p>
                                     </div>
-                                    <div class="pull-left spriteLev liverlevel-pic_liverlevel_30 "></div>
+                                    <div class="pull-left spriteLev liverlevel-pic_liverlevel_30 fl"></div>
                                 </a>
                             </div>
                             
@@ -1914,23 +1917,23 @@
                 <!--粉丝活跃榜-->
                 <div class="fans thumbnail text-left">
                          <div class="caption">
-                         	<div class="row foTit">
-                        		<h4 class="pull-left titH hidden-sm">粉丝活跃榜</h4>
-                                <h4 class="pull-left titH visible-sm-block">粉丝榜</h4>
-                                <div class="pull-right titD">
+                         	<div class="row foTit outer">
+                        		<h4 class="pull-left titH hidden-sm fl">粉丝活跃榜</h4>
+                                <h4 class="pull-left titH visible-sm-block fl">粉丝榜</h4>
+                                <div class="pull-right titD fl">
                                     <a href="#" class="colorPin">周</a>
                                     <a href="#" class="colorPin">月</a>
                                     <a href="#" class="colorPin">年</a>
                                 </div>
                         	</div>
-                            <div class="row foLi">
+                            <div class="row foLi outer">
                                 <a href="javascript:;">
-                                    <img class="pull-left" src="images/photo_title.jpg" alt=""/>
-                                    <div class="pull-left">
+                                    <img class="pull-left fl" src="images/photo_title.jpg" alt=""/>
+                                    <div class="pull-left fl">
                                         <p class="name">小蜜桃sasa</p>
                                         <p class="ynLiv">未开播</p>
                                     </div>
-                                    <div class="pull-left spriteLev liverlevel-pic_liverlevel_30"></div>
+                                    <div class="pull-left fl spriteLev liverlevel-pic_liverlevel_30"></div>
                                 </a>
                             </div>
                         	
@@ -1945,7 +1948,7 @@
     </div>
     
     <!--底部-->
-	<footer class="bs-docs-footer navbar-inverse" role="contentinfo">
+	<div class="bs-docs-footer navbar-inverse" role="contentinfo">
 		<div class="container">
 			<p>
             	<a href="javascript:;">关于蝌蚪 </a>|
@@ -1963,7 +1966,7 @@
             	<a class="officialMailbox" href="mailto:mt@mutiantech.com">kd@kedo.tv</a>
             </p>
 		</div>
-	</footer>
+	</div>
 
     
    
