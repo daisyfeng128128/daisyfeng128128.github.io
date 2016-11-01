@@ -29,8 +29,8 @@ input{
 	color: #ff3e53;
 }
 .box {
-	width: 37.5rem;
-	height: 37.5rem;
+	width: 40rem;
+	height: 40rem;
 	background-color: #d40;
 	margin: 0 auto;
 	margin-top: 38rem;
@@ -307,6 +307,7 @@ light-even
 	border-radius: 0.5rem;
 	border: 1px solid #cdcdcd;
 	text-indent: 1em;
+	font-size: 1rem; 
 }
 .pList img{
 	border-radius: 50%; 
