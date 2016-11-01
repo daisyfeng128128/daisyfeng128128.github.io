@@ -25,11 +25,15 @@ body {
 input{
 	border: none; 
 }
+.pin{
+	color: #ff3e53;
+}
 .box {
 	width: 37.5rem;
 	height: 37.5rem;
 	background-color: #d40;
-	margin: 38rem auto;
+	margin: 0 auto;
+	margin-top: 38rem;
 	padding: 20px;
 	overflow: hidden;
 	border-radius: 50%;
@@ -242,6 +246,26 @@ light-even
 	transform: rotate(337.5deg) translate(-305px,5px);
 	-webkit-transform: rotate(337.5deg) translate(-305px,5px);
 }
+
+.calcul{
+	width:25rem;
+	margin: 0 auto;
+	margin-top: 5rem;
+	color: #4e1a0e; 
+	font-size: 2rem;
+}
+.calcul .num{
+	padding: 0.5rem 1.9rem;
+	text-align: center; 
+	background-color: red; 
+	border-radius: 4rem;
+}
+.calcul .already{
+	margin-bottom: 1.5rem; 
+}
+
+
+
 .mask{
 	background-color: #000;
 	opacity: 0.5;
@@ -269,7 +293,6 @@ light-even
 }
 .pop .tit{
 	font-size: 2.8rem;
-	color: #ff3e53;
 	font-weight: normal;
 	margin-bottom: 4rem; 
 }
@@ -298,7 +321,6 @@ light-even
 	color: #fff;
 	font-size: 2rem; 
 	border-radius: 1rem; 
-	-color: #fff; 
 
 }
 .bBtn .conform{
