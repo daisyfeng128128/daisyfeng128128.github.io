@@ -333,3 +333,77 @@ light-even
 	background-color: #ff3e53;
 	margin-right: 2rem; 
 }
+.wrapper{
+	margin: 0 auto;
+}
+header{
+	background: url(../img/pic_chengong.png) no-repeat;
+	width:36rem;
+	height: 34rem;
+	background-size: 100%;
+	
+
+}
+.chosed{	margin-right: 2rem;
+}
+.result{
+	color: #4e1a0e; 
+	font-size: 2.8rem; 
+	width: 28rem;
+}
+.tip{
+	margin-top: 1.2rem;
+	width: 20rem;
+}
+.shareTit{
+	font-size: 2rem;
+	width:36rem;
+	margin-top: 5.5rem;
+	margin-bottom: 1.8rem;
+}
+.share{
+	width: 36rem; 
+	margin-bottom: 5rem; 
+}
+.share .fl{
+	margin-right: 0.2rem;
+}
+.share .fl div{
+	width:4rem;
+	height: 4rem;
+	background-size: 100%; 
+}
+
+.bg0{
+	background: url(../img/pic_yixin.png) no-repeat;
+}
+.bg1{
+	background: url(../img/icon_yixinfir.png) no-repeat;
+}
+.bg2{
+	background: url(../img/icon_weixin.png) no-repeat;
+}
+.bg3{
+	background: url(../img/icon_weixinfir.png) no-repeat;
+}
+.bg4{
+	background: url(../img/icon_qq.png) no-repeat;
+}
+.bg5{
+	background: url(../img/icon_qzone.png) no-repeat;
+}
+.bg6{
+	background: url(../img/icon_weibo.png) no-repeat;
+}
+.bg7{
+	background: url(../img/icon_tengxunweibo.png) no-repeat;
+}
+.back{
+	padding: 1rem 5rem; 
+	border-radius: 0.5rem; 
+	color: #fff;
+	background-color: #ff3e53;
+	font-size: 1.5rem; 
+	display: block;
+	margin-bottom: 15rem; 
+}
