@@ -31,7 +31,7 @@ input{
 .box {
 	width: 40rem;
 	height: 40rem;
-	background-color: #d40;
+	background-color: #ff3e53;
 	margin: 0 auto;
 	margin-top: 38rem;
 	padding: 20px;
@@ -40,8 +40,8 @@ input{
 	position: relative;
 }
 .lottery {
-	width: 600px;
-	height: 600px;
+	width: 40rem;
+	height: 40rem;
 	margin: 0 auto;
 	overflow: hidden;
 	position: relative;
@@ -52,8 +52,8 @@ input{
 .block {
 	box-shadow: 0 0 1px #000 inset;
 	position: absolute;
-	width: 300px;
-	height: 300px;
+	width: 20rem;
+	height: 20rem;
 	transform-origin: right bottom 0;
 	-webkit-transform-origin: right bottom 0;
 }
@@ -61,14 +61,10 @@ input{
 	cursor:pointer; 
 }
 .block:nth-child(odd) {
-	background-color: #F7941C;
-	background: -moz-linear-gradient(right bottom,#F7941C,#fff);
-	background: -webkit-linear-gradient(right bottom,#F7941C,#fff);
+	background-color: #fff;
 }
 .block:nth-child(even) {
-	background-color: #FDCD51;
-	background: -moz-linear-gradient(right bottom,#FDCD51,#fff);
-	background: -webkit-linear-gradient(right bottom,#FDCD51,#fff);
+	background-color: #fff4b5;
 }
 .block:nth-child(1) {
 	transform: rotate(0deg) skewY(45deg);
@@ -103,29 +99,38 @@ input{
 	-webkit-transform: rotate(315deg) skewY(45deg);
 }
 
-.btn:before {
+.pointer {
+	width: 5rem;
+	height: 8rem;
 	display: block;
 	content: "";
 	position: absolute;
-	top: -30px;
-	left: 30px;
-	border-bottom: 40px solid #d40;
+	top: 11rem;
+	left: 17.5rem;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
+	background:url(../img/pic_zhizhen.png) no-repeat;
+	z-index: 2;
 }
 .btn {
-	width: 100px;
-	height: 100px;
+	width: 12rem;
+	height: 12rem;
 	border-radius: 50%;
-	text-align: center;
-	line-height: 100px;
-	background-color: #d40;
+	background:url(../img/pic_choujiangpan.png) no-repeat;
 	position: absolute;
-	top: 270px;
-	left: 270px;
+	top: 15rem;
+	left: 15rem;
 	cursor: pointer;
-	box-shadow: 0 0 7px #000 inset;
 	color: #fff;
+	z-index: 3;
+}
+.start{
+	background:url(../img/pic_qingke.png) no-repeat;
+	width: 5rem;
+	height: 5rem;
+	position: absolute;
+	left: 3.5rem;
+	top: 3.5rem;
 }
 .content {
 	width: 200px;

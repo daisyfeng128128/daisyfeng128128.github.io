@@ -1,37 +1,8 @@
 var lottery = {
-	light:"odd",
 	name:["小米0","小米1","小米2","小米3","小米4","小米5","小米6","小米7"],
 	p:0
 }
-$(function(){
-	setInterval(light,700);
-});
-/*
-小灯闪烁
- */
-function light(){
-	if(lottery.light == "odd"){
-		$(".light-odd div").css({
-			"background-color":"#FBEDBC",
-			"box-shadow":"0 0 5px 10px #FBCB1F"
-		})
-		$(".light-even div").css({
-			"background-color":"#FBCB1F",
-			"box-shadow":"none"
-		})
-		lottery.light = "even";
-	}else{
-		$(".light-odd div").css({
-			"background-color":"#FBCB1F",
-			"box-shadow":"none"
-		})
-		$(".light-even div").css({
-			"background-color":"#FBEDBC",
-			"box-shadow":"0 0 5px 10px #FBCB1F"
-		})
-		lottery.light = "odd";
-	}
-}
+
 function clickBtn(){
 	var n = Math.floor(Math.random()*8+1);
 		lottery.p = 45 * n + 1822.5;
