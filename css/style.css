@@ -19,6 +19,9 @@
 .colorBlue{
 	color:#3e63d8;
 }
+.colorY{
+	color:#fd7500;
+}
 .bgff{
 	background-color:#fff;
 }
@@ -49,14 +52,19 @@ header{
 .anchImg{
 	position:relative;
 }
-/*.firAnch .degree{
+.anchImg .degree{
 	position:absolute; 
-	width:20px;
-	height:20px;
 	border-radius:50%;
+	padding:1rem;
 	right:0;
-	background-color:red;
-}*/
+	bottom:0;
+	font-size:1rem;
+	border: 1px solid #ddd;
+}
+.firAnch .firAnchR{
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
 .anchLive img{border-radius:50%; }
 .banner{
 	padding-left:3rem;
