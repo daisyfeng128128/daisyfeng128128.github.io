@@ -45,21 +45,6 @@ header{
 	background-color:red;
 }*/
 .anchLive img{border-radius:50%; }
-.banner{
-	padding-left:30px;.anchLive
-	padding-right:30px;
-}
-.banner a{
-	color:#999; 
-	text-decoration:none; 
-}
-.banner img{
-	margin-bottom:18px;
-}
-
-.banner .txtL .tit{
-	color:#f03a4b;
-}
 .glyphicon-fire{
 	background-color:#f03a4b;
 	color:#fff; 
