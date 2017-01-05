@@ -1,199 +1,2052 @@
-<!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>livePhone</title>
-<link href="css/style.css" rel="stylesheet" /> 
-<link href="css/bootstrap.min.css" rel="stylesheet" /> 
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport"
+	content="width=device-width,width=1190,user-scalable=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
 
+<title>玩游吧手游下载基地_最好玩的精选手游下载基地</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/app.css">
+
+<!-- 清除微信缓存-->
+<meta http-equiv="cache-control" content="max-age=0">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+<meta http-equiv="pragma" content="no-cache">
+
+<script
+	src="https://hm.baidu.com/hm.js?c014bd3c9ce5df724b8ec858b9c386fe"></script>
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?c014bd3c9ce5df724b8ec858b9c386fe";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+
+
+<link rel="stylesheet" href="css/swiper.min.css">
+<style type="text/css">
+#weixin-tip {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.8);
+	filter: alpha(opacity = 80);
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+#weixin-tip p {
+	text-align: center;
+	margin-top: 10%;
+	padding: 0 5%;
+	position: relative;
+}
+
+#weixin-tip p img {
+	max-width: 100%;
+	height: auto;
+}
+
+#weixin-tip .close {
+	color: #fff;
+	padding: 5px;
+	font: bold 20px/24px simsun;
+	text-shadow: 0 1px 0 #ddd;
+	position: absolute;
+	top: 0;
+	left: 5%;
+}
+</style>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 </head>
+<body class="">
 
-<body class="body">
-<div class="header">
-    <header>
-    	<div class="row">
-            <div class="anchLive firAnch col-xs-2 clearfix bgff">
-                <div class="anchImg pull-left">
-                	<img src="img/934a3f4e9c8bac9e9b99d7ac0a8da00a.jpg"/>
-                     <div class="degree bgff colorR">主</div> 
-                </div>
-                <!--<div class="firAnchR pull-left">
-                	<p class="colorR">LIVE</p> 
-                    <p class="color99">34567</p>
-                </div>-->
-            </div>
-            <div class="anchLive col-xs-2">
-                <div class="anchImg pull-left">
-                	<img src="img/934a3f4e9c8bac9e9b99d7ac0a8da00a.jpg"/>
-                     <div class="degree bgff colorY">守</div> 
-                </div>
-            </div>
-            <div class="anchLive col-xs-2">
-                <div class="anchImg pull-left">
-                	<img src="img/934a3f4e9c8bac9e9b99d7ac0a8da00a.jpg"/>
-                     <div class="degree bgff colorY">守</div> 
-                </div>
-            </div>
-            <div class="anchLive col-xs-2">
-                <div class="anchImg pull-left">
-                	<img src="img/934a3f4e9c8bac9e9b99d7ac0a8da00a.jpg"/>
-                     <div class="degree bgff colorBlue">管</div> 
-                </div>
-            </div>
-            <div class="anchLive col-xs-2">
-                	<img src="img/934a3f4e9c8bac9e9b99d7ac0a8da00a.jpg"/>
-            </div>
-            <div class="anchLive col-xs-2">
-                	<img src="img/934a3f4e9c8bac9e9b99d7ac0a8da00a.jpg"/>
-            </div>
-        </div>
-    </header>
+	<div id="wx_pic" style="margin:0 auto;display:none;">
+		<img src="img/wx_logo.png">
+	</div>
 
-    <section class="jumbotron banner row">
-      <div class="col-xs-12">
-        	<video src="1.mp4" id="000.mp4" 
-                   x-webkit-airplay="true" controls muted="true"></video>
-            <!--<img src="img/live_girl.png" width="100%" height="100%" alt="" />-->
-            <div class="txt clearfix">
-                <div class="txtL pull-left">
-                    <p class="tit colorR f3_4">女人如歌节目</p>
-                    <p class="color99 f2_8">
-                    	<span class="glyphicon glyphicon-eye-open f3_3"></span>
-                        5644654</p>
-                </div>
-                <div class="txtR pull-right f3">
-                    关注她
-                    <span class="glyphicon glyphicon-heart colorR"></span>
-                </div>
-            </div>
-      </div>
-    </section>
-</div>
+	<div class="app_nav_bg">
+		<div class="container_1190">
+			<div class="grid_1190">
+				<div class="app_nav">
+					<div class="back">
+						<a href="http://www.mjyule.cn/app">&lt; 返回</a>
+					</div>
+					<div class="nav_title">玩游吧</div>
+					<div class="share">分享到</div>
+				</div>
+			</div>
+		</div>
 
-	<section class="recommend">   
-       <div class="page-header clearfix">
-            <h4 class="pull-left f3_4">
-            	<span class="glyphicon glyphicon-fire"></span>
-                精彩推荐
-            </h4>     
-        </div>
-       <div class="row">
-       	  <div class="col-xs-6">
-                <a href="#" class="thumbnail">
-                  <div class="recommImg thumbnail">
-                    <img src="img/pic_01.png" alt=""/>
-                    <div class="thumb-bar"></div>
-                  </div>
-                  <div class="recommB">
-                    <div class="clearfix">
-                      <span class="color00 pull-left f3">女人如歌节目</span>
-                      <div class="color99 pull-right f2_8">
-                        <span class="glyphicon glyphicon-eye-open"></span>
-                        <span>2143324</span>
-                      </div>
-                    </div>
-                    <p class="color99 ellipsis f3">谢霆锋百科知识 舒淇变迷妹点赞</p>
-                  </div>
+		<!--end of container_640-->
+	</div>
+	<!--end of app_nav_bg-->
 
-                </a>
-              </div>
-          <div class="col-xs-6">
-            <a href="#" class="thumbnail">
-              <div class="recommImg thumbnail">
-                <img src="img/pic_01.png" alt=""/>
-                <div class="thumb-bar"></div>
-              </div>
-              <div class="recommB">
-                <div class="clearfix">
-                  <span class="color00 pull-left f3">女人如歌节目</span>
-                  <div class="color99 pull-right f2_8">
-                    <span class="glyphicon glyphicon-eye-open"></span>
-                    <span>2143324</span>
-                  </div>
-                </div>
-                <p class="color99 ellipsis f3">谢霆锋百科知识 舒淇变迷妹点赞</p>
-              </div>
+	<div class="container_1190">
+		<div class="grid_1190">
 
-            </a>
-          </div>
-          <div class="col-xs-6">
-            <a href="#" class="thumbnail">
-              <div class="recommImg thumbnail">
-                <img src="img/pic_01.png" alt=""/>
-                <div class="thumb-bar"></div>
-              </div>
-              <div class="recommB">
-                <div class="clearfix">
-                  <span class="color00 pull-left f3">女人如歌节目</span>
-                  <div class="color99 pull-right f2_8">
-                    <span class="glyphicon glyphicon-eye-open"></span>
-                    <span>2143324</span>
-                  </div>
-                </div>
-                <p class="color99 ellipsis f3">谢霆锋百科知识 舒淇变迷妹点赞</p>
-              </div>
+			<div class="slider">
+				<div class="swiper-container swiper-container-horizontal">
+					<div class="swiper-wrapper"
+						style="transform: translate3d(-1920px, 0px, 0px); transition-duration: 0ms;">
+						<div class="swiper-slide" style="width: 1190px;">
+							<a href="http://pyw.cn/sdl/t/2ban" target="_blank"><img
+								src="img/fe1d10626580ab5793eef0563c3ef020.png"></a>
+						</div>
+						<div class="swiper-slide" style="width: 1190px;">
+							<a
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3274345"
+								target="_blank"><img
+								src="img/dc288f085956ab843744d31069d435f7.jpg"></a>
+						</div>
+						<div class="swiper-slide swiper-slide-prev" style="width: 1190px;">
+							<a
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3295793"
+								target="_blank"><img
+								src="img/31cd2a8552cef69731f376d8356ddaee.jpg"></a>
+						</div>
+						<div class="swiper-slide swiper-slide-active"
+							style="width: 1190px;">
+							<a
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3550393"
+								target="_blank"><img
+								src="img/11fe75272f0a7e2d6683d9ba12a469a8.jpg"></a>
+						</div>
+						<div class="swiper-slide swiper-slide-next" style="width: 1190px;">
+							<a href="https://jq.qq.com/?_wv=1027&amp;k=42VqqTd"
+								target="_blank"><img
+								src="img/1d26e8166a9a2b3c2dd29429436544a0.jpg"></a>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div
+						class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+						<span class="swiper-pagination-bullet"></span><span
+							class="swiper-pagination-bullet"></span><span
+							class="swiper-pagination-bullet"></span><span
+							class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span
+							class="swiper-pagination-bullet"></span>
+					</div>
+				</div>
+			</div>
 
-            </a>
-          </div>
-          <div class="col-xs-6">
-            <a href="#" class="thumbnail">
-              <div class="recommImg thumbnail">
-                <img src="img/pic_01.png" alt=""/>
-                <div class="thumb-bar"></div>
-              </div>
-              <div class="recommB">
-                <div class="clearfix">
-                  <span class="color00 pull-left f3">女人如歌节目</span>
-                  <div class="color99 pull-right f2_8">
-                    <span class="glyphicon glyphicon-eye-open"></span>
-                    <span>2143324</span>
-                  </div>
-                </div>
-                <p class="color99 ellipsis f3">谢霆锋百科知识 舒淇变迷妹点赞</p>
-              </div>
+			<div id="weixin-tip">
+				<p>
+					<img src="http://www.mjyule.cn/images/live_weixin.png" alt="微信打开"><span
+						id="close" title="关闭" class="close">×</span>
+				</p>
+			</div>
 
-            </a>
-          </div>
-          <div class="col-xs-6">
-            <a href="#" class="thumbnail">
-              <div class="recommImg thumbnail">
-                <img src="img/pic_01.png" alt=""/>
-                <div class="thumb-bar"></div>
-              </div>
-              <div class="recommB">
-                <div class="clearfix">
-                  <span class="color00 pull-left f3">女人如歌节目</span>
-                  <div class="color99 pull-right f2_8">
-                    <span class="glyphicon glyphicon-eye-open"></span>
-                    <span>2143324</span>
-                  </div>
-                </div>
-                <p class="color99 ellipsis f3">谢霆锋百科知识 舒淇变迷妹点赞</p>
-              </div>
+		</div>
+		<!--end of grid_1190-->
+	</div>
+	<!--end of container_1190-->
+	<div class="container_1190">
+		<div class="grid_11900">
+			<div class="w_app">
 
-            </a>
-          </div>
-          <div class="col-xs-6">
-            <a href="#" class="thumbnail">
-              <div class="recommImg thumbnail">
-                <img src="img/pic_01.png" alt=""/>
-                <div class="thumb-bar"></div>
-              </div>
-              <div class="recommB">
-                <div class="clearfix">
-                  <span class="color00 pull-left f3">女人如歌节目</span>
-                  <div class="color99 pull-right f2_8">
-                    <span class="glyphicon glyphicon-eye-open"></span>
-                    <span>2143324</span>
-                  </div>
-                </div>
-                <p class="color99 ellipsis f3">谢霆锋百科知识 舒淇变迷妹点赞</p>
-              </div>
+				<div class="app_type_section">
+					<div class="type_icon">
+						<a href="http://www.mjyule.cn/app/type/"><img
+							src="http://www.mjyule.cn/images/type_06.jpg" alt="全部游戏"></a>
+					</div>
+					<div class="type_icon">
+						<a href="http://www.mjyule.cn/app/type/02/"><img
+							src="http://www.mjyule.cn/images/type_01.jpg" alt="休闲游戏"></a>
+					</div>
+					<div class="type_icon">
+						<a href="http://www.mjyule.cn/app/type/04/"><img
+							src="http://www.mjyule.cn/images/type_02.jpg" alt="动作游戏"></a>
+					</div>
+					<div class="type_icon">
+						<a href="http://www.mjyule.cn/app/type/07/"><img
+							src="http://www.mjyule.cn/images/type_03.jpg" alt="棋牌游戏"></a>
+					</div>
+					<div class="type_icon">
+						<a href="http://www.mjyule.cn/app/type/08/"><img
+							src="http://www.mjyule.cn/images/type_04.jpg" alt="策略游戏"></a>
+					</div>
+					<div class="type_icon">
+						<a href="http://www.mjyule.cn/app/type/03/"><img
+							src="http://www.mjyule.cn/images/type_05.jpg" alt="角色游戏"></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<!--end of app_nav-->
 
-            </a>
-          </div>
-       </div>
-    </section>
+				<div class="app_list">
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/69.html">
+							<div class="app_logo">
+								<img
+									src="img/f76567d30c84551c5547f282f35bac71.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">大唐无双</div>
+								<div class="app_type">44.68万人爱玩</div>
+								<div class="app_ranks">网易第一战斗网游手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="网易第一战斗网游手游激情版" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/68.html">
+							<div class="app_logo">
+								<img
+									src="img/4b3b5044a0f93a22c378298b19b086cc.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">斗战封神</div>
+								<div class="app_type">29.35万人爱玩</div>
+								<div class="app_ranks">全新3D动作对战手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/210l" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/08/67.html">
+							<div class="app_logo">
+								<img
+									src="img/af9a2bd151beb8def3f8e4ebc49791d4.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">猎魔传说</div>
+								<div class="app_type">26.51万人爱玩</div>
+								<div class="app_ranks">《猎魔传说》2016倾情</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://www.kedo.tv/files/packs/%E7%8C%8E%E9%AD%94%E4%BC%A0%E8%AF%B4.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/66.html">
+							<div class="app_logo">
+								<img
+									src="img/277a4805afb0f9a8cffe01767a8c5563.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">地下城与冒险</div>
+								<div class="app_type">23.7万人爱玩</div>
+								<div class="app_ranks">极致横版动作手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://www.kedo.tv/files/packs/%e5%9c%b0%e4%b8%8b%e5%9f%8e%e5%86%92%e9%99%a9_1.1.3.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/65.html">
+							<div class="app_logo">
+								<img
+									src="img/0a87c1a151c5220efee8e101f0920ec1.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">器灵</div>
+								<div class="app_type">32.21万人爱玩</div>
+								<div class="app_ranks">君子不器，万物有灵！</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://www.kedo.tv/files/packs/%E5%99%A8%E7%81%B5.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/64.html">
+							<div class="app_logo">
+								<img
+									src="img/409a7301a2b089c295d8ffcad0317caa.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">无尽争霸</div>
+								<div class="app_type">67.2万人爱玩</div>
+								<div class="app_ranks">全新3D立体5v5英雄公</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3276586"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/63.html">
+							<div class="app_logo">
+								<img
+									src="img/bbc6c332cd7e8f17debb0f6dc738243b.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">影之刃2</div>
+								<div class="app_type">12.5万人爱玩</div>
+								<div class="app_ranks">硬派黑暗武侠横版格斗</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3274345"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/62.html">
+							<div class="app_logo">
+								<img
+									src="img/d6efed2b807efad47b778c6b2f838c4c.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">英雄计划</div>
+								<div class="app_type">2.5万人爱玩</div>
+								<div class="app_ranks">Q版魔幻风格卡牌手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/25ia" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/06/61.html">
+							<div class="app_logo">
+								<img
+									src="img/9e80e7ba310432f04f86660fdc51f882.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">奥特曼口袋版</div>
+								<div class="app_type">29.7万人爱玩</div>
+								<div class="app_ranks">奥特曼官方授权！</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1vhi" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/60.html">
+							<div class="app_logo">
+								<img
+									src="img/b308750512a3af4bafb6454f11aa09c2.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">鬼吹灯3D</div>
+								<div class="app_type">21.2万人爱玩</div>
+								<div class="app_ranks">原著小说3D正版授权</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://uri6.com/Ez6ZVv" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/06/59.html">
+							<div class="app_logo">
+								<img
+									src="img/cc39077cc8441e79b40ee28eab707e76.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">造物法则</div>
+								<div class="app_type">2.5万人爱玩</div>
+								<div class="app_ranks">唯冒险与萝莉不可辜负</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/20if" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/58.html">
+							<div class="app_logo">
+								<img
+									src="img/e1b0520920321e0551023148139ef8ac.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">轩辕剑3手游</div>
+								<div class="app_type">29.8万人爱玩</div>
+								<div class="app_ranks">经典回归！</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://downfx2.shengli.com/20161221/mutianxuanyuanjian_45369.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/06/56.html">
+							<div class="app_logo">
+								<img
+									src="img/60d94df5ea711cb0e501dafe806e286e.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">真江湖HD</div>
+								<div class="app_type">2.5万人爱玩</div>
+								<div class="app_ranks">百万现金红包任性放送</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://kedo.tv/files/packs/%E7%9C%9F%E6%B1%9F%E6%B9%96_9128_2.00.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/55.html">
+							<div class="app_logo">
+								<img
+									src="img/f308fe4fca0eac8969aceec690fe97d1.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">权力与荣耀</div>
+								<div class="app_type">52.5万人爱玩</div>
+								<div class="app_ranks">首款魔幻史诗国战手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3511038"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/54.html">
+							<div class="app_logo">
+								<img
+									src="img/f925a5c589ab3eda0cffd835386424cc.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">大圣之怒</div>
+								<div class="app_type">32.5万人爱玩</div>
+								<div class="app_ranks">大圣之怒-送嫦娥！</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3550393"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/53.html">
+							<div class="app_logo">
+								<img
+									src="img/ca4b2384252caae093934a08cfb788e9.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">最终幻想觉醒</div>
+								<div class="app_type">28.5万人爱玩</div>
+								<div class="app_ranks">SE正版授权《最终幻想</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3295793"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/52.html">
+							<div class="app_logo">
+								<img
+									src="img/5195b9a0a38e55331742917d8b3ef682.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">燃烧战歌</div>
+								<div class="app_type">12.5万人爱玩</div>
+								<div class="app_ranks">1V1实时真策略对战</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1h2h" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/51.html">
+							<div class="app_logo">
+								<img
+									src="img/98c1a732595ba73dd81aa7c47c19864a.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">大话蜀山</div>
+								<div class="app_type">32.5万人爱玩</div>
+								<div class="app_ranks">3D仙侠回合制手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1g9q" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/49.html">
+							<div class="app_logo">
+								<img
+									src="img/adccc7ac8b2efbfc7c65335ede032cee.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">超能战区</div>
+								<div class="app_type">21.5万人爱玩</div>
+								<div class="app_ranks">媲美主机的战斗操作</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1grg" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/48.html">
+							<div class="app_logo">
+								<img
+									src="img/de075c6cd941ef37ef2a27ea70e8e072.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">犬夜叉</div>
+								<div class="app_type">42.5万人爱玩</div>
+								<div class="app_ranks">高桥留美子正版授权手</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1h40" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/42.html">
+							<div class="app_logo">
+								<img
+									src="img/2a413aeb7961f42377966ecdc6e28ec9.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">生死狙击</div>
+								<div class="app_type">37.6万人爱玩</div>
+								<div class="app_ranks">纯正正版 强大枪战</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3450079"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/19.html">
+							<div class="app_logo">
+								<img
+									src="img/bf6e3c424c616020c01663f57bbb24e9.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">全民斗战神</div>
+								<div class="app_type">1124万人爱玩</div>
+								<div class="app_ranks">腾讯首款变身战斗手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104359534/apk/10023161_com.tencent.tmgp.asura.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/17.html">
+							<div class="app_logo">
+								<img
+									src="img/7c01cf7b793d2052ff45916d6ae12c20.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">梦幻诛仙</div>
+								<div class="app_type">238万人爱玩</div>
+								<div class="app_ranks">原味诛仙 再续经典</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1105218881/apk/10023161_com.tencent.tmgp.mhzxsy.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/39.html">
+							<div class="app_logo">
+								<img
+									src="img/2d0675b482c13ad95bce40bd3b3bd6bf.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">妖萌战姬</div>
+								<div class="app_type">17万人爱玩</div>
+								<div class="app_ranks">三国萌娘爆衣福利</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/19fh" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/37.html">
+							<div class="app_logo">
+								<img
+									src="img/0c1919952f0d3207b43e1bb9b1011e99.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">我守护的一切</div>
+								<div class="app_type">322万人爱玩</div>
+								<div class="app_ranks">虚幻4引擎打造3D手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1a08" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/24.html">
+							<div class="app_logo">
+								<img
+									src="img/98b23204c392519e8a796a7c982b0daa.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">放开那三国2</div>
+								<div class="app_type">142万人爱玩</div>
+								<div class="app_ranks">鲜活演绎Q萌新境界</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://meng.down.pjwap.com/fknsg2/fknsg2_MJL_lj_001_paojiao.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/08/34.html">
+							<div class="app_logo">
+								<img
+									src="img/ff573db6a08e16a05d0c37267ddb01cd.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">海岛战争</div>
+								<div class="app_type">41万人爱玩</div>
+								<div class="app_ranks">海战题材的策略手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/18qi" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/30.html">
+							<div class="app_logo">
+								<img
+									src="img/82cd8463193d677ce0426b6534c1fc42.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">口袋妖怪VS</div>
+								<div class="app_type">71万人爱玩</div>
+								<div class="app_ranks">口袋妖怪经典再现</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/17j1" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/10.html">
+							<div class="app_logo">
+								<img
+									src="img/acc9ddcfc446f2c16bc9b4b687431cd7.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">王者荣耀</div>
+								<div class="app_type">5763万人爱玩</div>
+								<div class="app_ranks">东方英雄即时对战</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104466820/apk/10023161_com.tencent.tmgp.sgame.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/18.html">
+							<div class="app_logo">
+								<img
+									src="img/e164a91236c2e51b05213539fe54a6e6.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">封神英雄榜</div>
+								<div class="app_type">32万人爱玩</div>
+								<div class="app_ranks">封神大将 任你调遣</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104870461/apk/10023161_com.tencent.tmgp.mqfs.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/38.html">
+							<div class="app_logo">
+								<img
+									src="img/438ff974cedc6b69c105a5e64491d0b9.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">仙境传说：复兴</div>
+								<div class="app_type">151万人爱玩</div>
+								<div class="app_ranks">带你重回RO的世界</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://meng.down.pjwap.com/xjcsro/xjcsro_MJL_lj_001_paojiao.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/08/41.html">
+							<div class="app_logo">
+								<img
+									src="img/2ba284ba951c60afe17b7f74b1e94f13.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">大航海之路</div>
+								<div class="app_type">132万人爱玩</div>
+								<div class="app_ranks">谁是下一个航海王</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pkg.pyw.cn/game/20160913_dhhzl_gs_qk_272813-19.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/40.html">
+							<div class="app_logo">
+								<img
+									src="img/2e31f41effb157e324c2c2823770733f.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">倩女幽魂</div>
+								<div class="app_type">1229万人爱玩</div>
+								<div class="app_ranks">新一代国民玄幻手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://meng.down.pjwap.com/qnyha/qnyha_MJL_lj_001_paojiao.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/35.html">
+							<div class="app_logo">
+								<img
+									src="img/6a5f9f5e90c87712de0be1662a0cef58.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">乱轰三国志</div>
+								<div class="app_type">32万人爱玩</div>
+								<div class="app_ranks">刘诗诗带你乱轰三国</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/18q5" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/33.html">
+							<div class="app_logo">
+								<img
+									src="img/1c2b355902602a2da36490dfcf6c43c0.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">御龙在天</div>
+								<div class="app_type">2851万人爱玩</div>
+								<div class="app_ranks">国民级国战网游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104680867/apk/10023161_com.tencent.tmgp.ylm.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/32.html">
+							<div class="app_logo">
+								<img
+									src="img/aeb0d9077397b32b52c68342b878b2f9.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">全民超神</div>
+								<div class="app_type">1448万人爱玩</div>
+								<div class="app_ranks">腾讯实时电竞MOBA手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104520095/apk/10023161_com.tencent.tmgp.gods.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/31.html">
+							<div class="app_logo">
+								<img
+									src="img/5dee61e046ed2c43fb59d1ec7a2735bb.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">战斗吧剑灵</div>
+								<div class="app_type">189万人爱玩</div>
+								<div class="app_ranks">超炫剑灵手游版</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1000002110/apk/10023161_com.tencent.tmgp.bnsm.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/29.html">
+							<div class="app_logo">
+								<img
+									src="img/2069bb0c23667d9b79bd5f0e05106e28.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">全民突击</div>
+								<div class="app_type">1721万人爱玩</div>
+								<div class="app_ranks">腾讯首款FPS枪战手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1000001286/apk/10023161_com.tencent.WeFire.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/02/28.html">
+							<div class="app_logo">
+								<img
+									src="img/15a0b1fa139b1de1d407601a3dbfba0f.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">保卫萝卜3</div>
+								<div class="app_type">215万人爱玩</div>
+								<div class="app_ranks">超萌的塔防游戏</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104505648/apk/10023161_com.tencent.tmgp.carrot3.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/27.html">
+							<div class="app_logo">
+								<img
+									src="img/a953afa00614f6f9618f31e851d42f59.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">全民枪战</div>
+								<div class="app_type">64万人爱玩</div>
+								<div class="app_ranks">全球首款UGC竞技手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://meng.down.pjwap.com/qmqza/qmqza_MJL_lj_003_paojiao.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/02/26.html">
+							<div class="app_logo">
+								<img
+									src="img/c561cedf1bb94e4c5ed036bc3a57f57e.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">街篮</div>
+								<div class="app_type">231万人爱玩</div>
+								<div class="app_ranks">3V3篮球真竞技手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3403924"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/20.html">
+							<div class="app_logo">
+								<img
+									src="img/81296317a5d8cce6485ebfe2371a9896.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">少女咖啡枪</div>
+								<div class="app_type">56万人爱玩</div>
+								<div class="app_ranks">3D萌系射击手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://meng.down.pjwap.com/snkfq/snkfq_MJL_lj_001_paojiao.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/25.html">
+							<div class="app_logo">
+								<img
+									src="img/65de109215af76596ea96f75ccb011e5.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">装甲联盟</div>
+								<div class="app_type">23万人爱玩</div>
+								<div class="app_ranks">跨次元军武TPS手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://meng.down.pjwap.com/zjlmc/zjlmc_MJL_lj_001_paojiao.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/9.html">
+							<div class="app_logo">
+								<img
+									src="img/c377e97b4a3b981478661645a8efa44d.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">火影忍者-疾风传</div>
+								<div class="app_type">315万人爱玩</div>
+								<div class="app_ranks">《火影忍者》正版授权</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104307008/apk/10023161_com.tencent.KiHan.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/23.html">
+							<div class="app_logo">
+								<img
+									src="img/7c2aa40aedcfd0f8b0a342494a7cc6f1.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">六龙争霸</div>
+								<div class="app_type">1237万人爱玩</div>
+								<div class="app_ranks">全球首款千人国战手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104472208/apk/10023161_com.tencent.tmgp.ttcz.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/22.html">
+							<div class="app_logo">
+								<img
+									src="img/9c2d826f266b775ba60ed174b8a61475.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">穿越火线手游</div>
+								<div class="app_type">2205万人爱玩</div>
+								<div class="app_ranks">三亿CF玩家的枪战梦想</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104512706/apk/10023161_com.tencent.tmgp.cf.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/02/21.html">
+							<div class="app_logo">
+								<img
+									src="img/e43dee77586f7a8c4ee9d527ce222181.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">天天酷跑</div>
+								<div class="app_type">363万人爱玩</div>
+								<div class="app_ranks">轻松好玩 简单时尚</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://down.s.qq.com/download/1104333046/apk/10023161_com.tencent.tmgp.RunGame.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/15.html">
+							<div class="app_logo">
+								<img
+									src="img/cdb53aba84f6f7571dd0f82f2114cfa2.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">侍魂OL</div>
+								<div class="app_type">113万人爱玩</div>
+								<div class="app_ranks">人气游戏《侍魂》正版</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://meng.down.pjwap.com/shol/shol_MJL_lj_001_paojiao.apk"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/13.html">
+							<div class="app_logo">
+								<img
+									src="img/84c01579a1981d457dbf9176ed325eb9.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">武娘</div>
+								<div class="app_type">171万人爱玩</div>
+								<div class="app_ranks">知名门派化身萌娘少女</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/obi" target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/16.html">
+							<div class="app_logo">
+								<img
+									src="img/17fac5a7d37e974f1029856288f25294.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">阴阳师</div>
+								<div class="app_type">2370万人爱玩</div>
+								<div class="app_ranks">3D唯美和风手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3288224"
+								target="_blank">下载</a></span>
+						</div>
+
+					</div>
+
+
+
+					<div class="clear"></div>
+					<div class="showpage">
+						<a title="Total record">&nbsp;<b>51</b>
+						</a>&nbsp;&nbsp;&nbsp;<b>1</b>&nbsp;<a
+							href="http://www.mjyule.cn/app/type/index_2.html">2</a>&nbsp;<a
+							href="http://www.mjyule.cn/app/type/index_2.html">下一页</a>&nbsp;<a
+							href="http://www.mjyule.cn/app/type/index_2.html">尾页</a>
+					</div>
+				</div>
+
+				<div id="weixin-tip">
+					<p>
+						<img src="http://www.mjyule.cn/images/live_weixin.png" alt="微信打开"><span
+							id="close" title="关闭" class="close">×</span>
+					</p>
+				</div>
+
+			</div>
+			<!--end of w_app-->
+		</div>
+		<!--end of grid_640-->
+	</div>
+
+	<script type="text/javascript">
+		$(window).on("load", function() {
+			var $winHeight = $(window).height();
+			var $btn = $('#btns>a');
+			var $tip = $('#weixin-tip');
+			var $close = $('#close');
+
+			function is_weixin() {
+				var ua = navigator.userAgent.toLowerCase();
+				if (ua.match(/MicroMessenger/i) == "micromessenger") {
+					return true;
+				} else {
+					return false;
+				}
+			}
+			var isWeixin = is_weixin();
+			if (isWeixin) {
+				$btn.click(function() {
+					$tip.css("height", $winHeight);
+					$tip.show();
+					return false;
+				});
+				$close.click(function() {
+					$tip.hide();
+				});
+				$tip.click(function() {
+					$tip.hide();
+				});
+			}
+		});
+	</script>
+
+
+
+	<div class="container_1190">
+		<div class="grid_1190">
+			<div class="w_app">
+
+
+				<div class="app_list">
+					<!--<div class="app_list_title">潮流热品</div>
+					<div class="app_list_ftitle">大家都在玩的时下精品</div>-->
+
+
+					<div class="app_li_fi">
+						<a href="http://www.mjyule.cn/app/type/03/69.html">
+							<div class="app_logo">
+								<img src="img/f76567d30c84551c5547f282f35bac71.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">大唐无双</div>
+								<div class="app_type">44.68万人爱玩</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download_fi">
+							<span id="btns"><a class="android-btn"
+								href="网易第一战斗网游手游激情版" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li_fi">
+						<a href="http://www.mjyule.cn/app/type/03/68.html">
+							<div class="app_logo">
+								<img src="img/4b3b5044a0f93a22c378298b19b086cc.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">斗战封神</div>
+								<div class="app_type">29.35万人爱玩</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download_fi">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/210l" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li_fi">
+						<a href="http://www.mjyule.cn/app/type/08/67.html">
+							<div class="app_logo">
+								<img src="img/af9a2bd151beb8def3f8e4ebc49791d4.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">猎魔传说</div>
+								<div class="app_type">26.51万人爱玩</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download_fi">
+							<span id="btns"><a class="android-btn"
+								href="http://www.kedo.tv/files/packs/%E7%8C%8E%E9%AD%94%E4%BC%A0%E8%AF%B4.apk"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li_fi">
+						<a href="http://www.mjyule.cn/app/type/03/66.html">
+							<div class="app_logo">
+								<img src="img/277a4805afb0f9a8cffe01767a8c5563.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">地下城与冒险</div>
+								<div class="app_type">23.7万人爱玩</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download_fi">
+							<span id="btns"><a class="android-btn"
+								href="http://www.kedo.tv/files/packs/%e5%9c%b0%e4%b8%8b%e5%9f%8e%e5%86%92%e9%99%a9_1.1.3.apk"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li_fi">
+						<a href="http://www.mjyule.cn/app/type/03/65.html">
+							<div class="app_logo">
+								<img src="img/0a87c1a151c5220efee8e101f0920ec1.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">器灵</div>
+								<div class="app_type">32.21万人爱玩</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download_fi">
+							<span id="btns"><a class="android-btn"
+								href="http://www.kedo.tv/files/packs/%E5%99%A8%E7%81%B5.apk"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li_fi">
+						<a href="http://www.mjyule.cn/app/type/07/39.html">
+							<div class="app_logo">
+								<img src="img/2d0675b482c13ad95bce40bd3b3bd6bf.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">妖萌战姬</div>
+								<div class="app_type">17万人爱玩</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download_fi">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/19fh" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+
+				<div class="app_list">
+					<div class="app_list_title hr">小编推荐榜</div>
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/69.html">
+							<div class="app_logo">
+								<img src="img/f76567d30c84551c5547f282f35bac71.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">大唐无双</div>
+								<div class="app_type">44.68万人爱玩</div>
+								<div class="app_ranks">网易第一战斗网游手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="网易第一战斗网游手游激情版" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/68.html">
+							<div class="app_logo">
+								<img src="img/4b3b5044a0f93a22c378298b19b086cc.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">斗战封神</div>
+								<div class="app_type">29.35万人爱玩</div>
+								<div class="app_ranks">全新3D动作对战手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/210l" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/08/67.html">
+							<div class="app_logo">
+								<img src="img/af9a2bd151beb8def3f8e4ebc49791d4.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">猎魔传说</div>
+								<div class="app_type">26.51万人爱玩</div>
+								<div class="app_ranks">《猎魔传说》2016倾情</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://www.kedo.tv/files/packs/%E7%8C%8E%E9%AD%94%E4%BC%A0%E8%AF%B4.apk"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/66.html">
+							<div class="app_logo">
+								<img src="img/277a4805afb0f9a8cffe01767a8c5563.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">地下城与冒险</div>
+								<div class="app_type">23.7万人爱玩</div>
+								<div class="app_ranks">极致横版动作手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://www.kedo.tv/files/packs/%e5%9c%b0%e4%b8%8b%e5%9f%8e%e5%86%92%e9%99%a9_1.1.3.apk"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/65.html">
+							<div class="app_logo">
+								<img src="img/0a87c1a151c5220efee8e101f0920ec1.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">器灵</div>
+								<div class="app_type">32.21万人爱玩</div>
+								<div class="app_ranks">君子不器，万物有灵！</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://www.kedo.tv/files/packs/%E5%99%A8%E7%81%B5.apk"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/64.html">
+							<div class="app_logo">
+								<img src="img/409a7301a2b089c295d8ffcad0317caa.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">无尽争霸</div>
+								<div class="app_type">67.2万人爱玩</div>
+								<div class="app_ranks">全新3D立体5v5英雄公</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3276586"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/63.html">
+							<div class="app_logo">
+								<img src="img/bbc6c332cd7e8f17debb0f6dc738243b.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">影之刃2</div>
+								<div class="app_type">12.5万人爱玩</div>
+								<div class="app_ranks">硬派黑暗武侠横版格斗</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3274345"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/62.html">
+							<div class="app_logo">
+								<img src="img/d6efed2b807efad47b778c6b2f838c4c.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">英雄计划</div>
+								<div class="app_type">2.5万人爱玩</div>
+								<div class="app_ranks">Q版魔幻风格卡牌手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/25ia" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/06/61.html">
+							<div class="app_logo">
+								<img src="img/9e80e7ba310432f04f86660fdc51f882.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">奥特曼口袋版</div>
+								<div class="app_type">29.7万人爱玩</div>
+								<div class="app_ranks">奥特曼官方授权！</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1vhi" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/60.html">
+							<div class="app_logo">
+								<img src="img/b308750512a3af4bafb6454f11aa09c2.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">鬼吹灯3D</div>
+								<div class="app_type">21.2万人爱玩</div>
+								<div class="app_ranks">原著小说3D正版授权</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://uri6.com/Ez6ZVv" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/06/59.html">
+							<div class="app_logo">
+								<img src="img/cc39077cc8441e79b40ee28eab707e76.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">造物法则</div>
+								<div class="app_type">2.5万人爱玩</div>
+								<div class="app_ranks">唯冒险与萝莉不可辜负</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/20if" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/58.html">
+							<div class="app_logo">
+								<img src="img/e1b0520920321e0551023148139ef8ac.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">轩辕剑3手游</div>
+								<div class="app_type">29.8万人爱玩</div>
+								<div class="app_ranks">经典回归！</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://downfx2.shengli.com/20161221/mutianxuanyuanjian_45369.apk"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/06/56.html">
+							<div class="app_logo">
+								<img src="img/60d94df5ea711cb0e501dafe806e286e.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">真江湖HD</div>
+								<div class="app_type">2.5万人爱玩</div>
+								<div class="app_ranks">百万现金红包任性放送</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://kedo.tv/files/packs/%E7%9C%9F%E6%B1%9F%E6%B9%96_9128_2.00.apk"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/55.html">
+							<div class="app_logo">
+								<img src="img/f308fe4fca0eac8969aceec690fe97d1.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">权力与荣耀</div>
+								<div class="app_type">52.5万人爱玩</div>
+								<div class="app_ranks">首款魔幻史诗国战手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3511038"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/54.html">
+							<div class="app_logo">
+								<img src="img/f925a5c589ab3eda0cffd835386424cc.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">大圣之怒</div>
+								<div class="app_type">32.5万人爱玩</div>
+								<div class="app_ranks">大圣之怒-送嫦娥！</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3550393"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/53.html">
+							<div class="app_logo">
+								<img src="img/ca4b2384252caae093934a08cfb788e9.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">最终幻想觉醒</div>
+								<div class="app_type">28.5万人爱玩</div>
+								<div class="app_ranks">SE正版授权《最终幻想</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://api.np.mobilem.360.cn/redirect/down/?from=lm_155751&amp;appid=3295793"
+								target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/07/52.html">
+							<div class="app_logo">
+								<img src="img/5195b9a0a38e55331742917d8b3ef682.jpg">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">燃烧战歌</div>
+								<div class="app_type">12.5万人爱玩</div>
+								<div class="app_ranks">1V1实时真策略对战</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1h2h" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/51.html">
+							<div class="app_logo">
+								<img src="img/98c1a732595ba73dd81aa7c47c19864a.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">大话蜀山</div>
+								<div class="app_type">32.5万人爱玩</div>
+								<div class="app_ranks">3D仙侠回合制手游</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1g9q" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/04/49.html">
+							<div class="app_logo">
+								<img src="img/adccc7ac8b2efbfc7c65335ede032cee.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">超能战区</div>
+								<div class="app_type">21.5万人爱玩</div>
+								<div class="app_ranks">媲美主机的战斗操作</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1grg" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+
+
+					<div class="app_li">
+						<a href="http://www.mjyule.cn/app/type/03/48.html">
+							<div class="app_logo">
+								<img src="img/de075c6cd941ef37ef2a27ea70e8e072.png">
+							</div>
+							<div class="app_content_info">
+								<div class="app_title">犬夜叉</div>
+								<div class="app_type">42.5万人爱玩</div>
+								<div class="app_ranks">高桥留美子正版授权手</div>
+							</div>
+							<div class="clear"></div>
+						</a>
+						<div class="app_download">
+							<span id="btns"><a class="android-btn"
+								href="http://pyw.cn/sdl/t/1h40" target="_blank">下载</a></span>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+
+				<div class="app_list">
+					<div class="app_download_fi">
+						<a href="http://www.mjyule.cn/app/type/">更多</a>
+					</div>
+					<a href="http://www.mjyule.cn/app/type/"> </a>
+				</div>
+				<a href="http://www.mjyule.cn/app/type/"> </a>
+			</div>
+			<!--end of w_app-->
+			<a href="http://www.mjyule.cn/app/type/"> </a>
+		</div>
+		<!--end of grid_1190-->
+		<a href="http://www.mjyule.cn/app/type/"> </a>
+	</div>
+	<!--end of container_1190-->
+	<a href="http://www.mjyule.cn/app/type/"> &nbsp; <script
+			src="http://www.mjyule.cn/js/swiper.min.js"></script> <script>
+				var swiper = new Swiper('.swiper-container', {
+					pagination : '.swiper-pagination',
+					paginationClickable : true,
+					autoplay : 2000,
+				});
+			</script>
+
+
+	</a>
 </body>
 </html>
-
