@@ -189,15 +189,13 @@ a:hover{
 }
 
 /* 登录注册隐藏 */
-@media (min-width: 768px){
-	/* .navbar-right {
-	    display: none;
-	} */
-	
-}
+
 @media (max-width: 767px){
 	.thumbnail{
 		padding: 0; 
+	}
+	.thumbnail{
+		border-radius: 0;
 	}
 }
 /*导航*/
