@@ -191,11 +191,10 @@ a:hover{
 /* 登录注册隐藏 */
 
 @media (max-width: 767px){
-	.thumbnail{
-		padding: 0; 
-	}
-	.thumbnail{
-		border-radius: 0;
+	.thumbnail,img{
+		padding: 0 !important; 
+		border-radius: 0 !important;
+		box-shadow:none;
 	}
 }
 /*导航*/
